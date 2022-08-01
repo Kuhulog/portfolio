@@ -9,7 +9,7 @@ import re
 import time
 import gzip
 
-class FW_createDB:
+class FW_DB:
     def __init__(self, HOST, DB_PATH, LOG_FOLDER_PATH, REGEXP):
         self.HOST = HOST
         self.TABLE = HOST
