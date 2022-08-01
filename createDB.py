@@ -3,7 +3,7 @@
 #各サーバログのスクリプトファイルを呼び出す
 import sys
 sys.path.append("各SVログを格納するスクリプトファイルが格納されているフォルダ") #パスを通す
-import FW_createDB #FWログをDBに格納するスクリプトファイル
+import FW_DB #FWログをDBに格納するスクリプトファイル
 import glob
 import os
 import re
