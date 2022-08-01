@@ -3,7 +3,7 @@
 #各サーバログのスクリプトファイルを呼び出す
 import sys
 sys.path.append("各SVログを格納するスクリプトファイルが格納されているフォルダ") #パスを通す
-import FW_createDB #FWログをDBに格納するスクリプトファイル
+import log_createDB #FWログをDBに格納するスクリプトファイル
 import glob
 import os
 import re
@@ -97,5 +97,5 @@ if __name__ == '__main__':
         createDB = 'DNSサーバをDBへ格納する用のclass' #インスタンス作成
         createDB.insert_db() #DBへ格納するためのメソッド
     elif SERVICE == 'FW':
-        createDB = 'FW_createDB.FW_createDB(HOST, DB_PATH, LOG_FOLDER_PATH, REGEXP)'
+        createDB = 'log_createDB.log_createDB(HOST, DB_PATH, LOG_FOLDER_PATH, REGEXP)'
         createDB.insert_db()
