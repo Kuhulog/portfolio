@@ -97,5 +97,5 @@ if __name__ == '__main__':
         createDB = 'DNSサーバをDBへ格納する用のclass' #インスタンス作成
         createDB.insert_db() #DBへ格納するためのメソッド
     elif SERVICE == 'FW':
-        createDB = 'FW_createDB.FW_createDB(HOST, DB_PATH, LOG_FOLDER_PATH, REGEXP)'
+        createDB = 'FW_DB.FW_DB(HOST, DB_PATH, LOG_FOLDER_PATH, REGEXP)'
         createDB.insert_db()
