@@ -1,6 +1,6 @@
 # portfolio
 ポートフォリオ用
-# DB
+# ●DB
 PythonとSQLite3を使用し、データベースを作成する。
 
 ## Dependency
@@ -8,48 +8,25 @@ PythonとSQLite3を使用し、データベースを作成する。
 - SQLite3
 
 ## Usage
+記載予定
 
+## References
+[お気楽 SQLite 超入門](http://www.nct9.ne.jp/m_hiroi/linux/sqlite04.html)
+[PythonでSQLite](https://qiita.com/kawa-Kotaro/items/9933f56abd53a09826d9)
 
-"hoge"を動かすのに必要なライブラリなどを列挙する
+# ●blog
+Pythonを使用し、webスクレイピングを行う。<br>
+自社の社員の週報を確認する<br>
+自社web専用なので他サイトでは使用不可<br>
+参考にはなるかもしれません
 
-* huga 3.5.2
-* hogehuga 1.0.2
+## Dependency
+- Python3系<br>
 
-# Installation
+## Usage
+記載予定
 
-Requirementで列挙したライブラリなどのインストール方法を説明する
-
-```bash
-pip install huga_package
-```
-
-# Usage
-
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
-
-# Note
-
-注意点などがあれば書く
-
-# Author
-
-作成情報を列挙する
-
-* 作成者
-* 所属
-* E-mail
-
-# License
-ライセンスを明示する
-
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
-社内向けなら社外秘であることを明示してる
-
-"hoge" is Confidential.
+## References
+[【PythonでWebスクレイピング】](https://www.youtube.com/watch?v=Eu3CojjLQL4&t=729s)<br>
+[【Selenium】ChromeDriverを自動更新するPythonライブラリが便利](https://yuki.world/python-selenium-chromedriver-auto-update/)<br>
+[Seleniumクイックリファレンス](https://www.seleniumqref.com/)
